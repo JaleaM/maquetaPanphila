@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("../img/fondo.png") ;
+}
+
+#contenido hr{
+    opacity: 1;
+    background-color: #FDD900;
+    height: 1px;
+}
+
+#contenido{
+    padding-top: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+#contenido h1{
+    /*font-family: 'Oxygen', sans-serif;*/
+    font-family: 'Arima Madurai', cursive;
+}
+
+#img_banner{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 200px;
+	height: auto;
+}
+
+#jumbotron{
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: #1D1D1B;
+}
+
+.fixeado{
+    position: fixed;
+}
+
+.menu {
+    background-color: #1D1D1B;
+    overflow: auto;
+}
+  
+.menu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px 0px 14px;
+    text-decoration: none;
+}
+  
+.menu a:hover {
+    color: #FDD900;
+}
+
+.img-menu{
+    height: 50px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.menu-item:hover{
+    color: #FDD900;
+}
+
+.img-contenido{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.encabezado{
+    display: inline-block;
+    width: 100%;
+    font-family: 'Oxygen', sans-serif;
+    padding: 0px; 
+    margin-bottom: 0px;
+}
+
+.encabezado p{
+    margin-bottom: 0px;
+}
+
+.titulo{
+    float: left;
+    display: block;
+    margin-bottom: 0px;
+}
+
+.precio{
+    display: block;
+    float: right;
+}
+
+.descripcion{
+    padding: 0px; 
+    display: block;
+    font-family: 'Spline Sans', sans-serif;;
+    
+}
+
+.container{
+    padding: 0px;
+}
+
+.etiqueta span{
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: #FDD900;
+    color: #1D1D1B;
+    margin-left: 10px;
+}
+
+.lista .titulo p{
+    display: list-item;          /* This has to be "list-item"                                               */
+    list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+    list-style-position:inside;
+}
+
+@media (max-width: 600px) {
+    #contenido {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+
+    .img-menu{
+        height: 45px;
+        width: auto;
+        margin-bottom: 8px;
+    }
+
+    #img_banner{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 175px;
+        height: auto;
+    }
+
+    #jumbotron{
+        width: 100%;
+        height: 75px;
+        display: block;
+        background-color: #1D1D1B;
+    }
+}
